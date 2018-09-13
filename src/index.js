@@ -8,7 +8,7 @@ import { Provider } from 'react-redux';
 import { createStore, compose, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
-import './assets/bootstrap.min.css';
+import './../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './global-styles';
 
 import Home from './containers/Home';
