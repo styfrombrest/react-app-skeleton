@@ -1,8 +1,8 @@
-import { injectGlobal } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 import { color } from './consts';
 
 /* eslint no-unused-expressions: 0 */
-injectGlobal`
+createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 * {
